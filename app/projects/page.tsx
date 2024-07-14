@@ -27,6 +27,6 @@ export default async function Projects() {
 }
 
 export const metadata = {
-  title: "Mohamed Fawzy | Projects",
+  title: "Nourhan Fawzy | Projects",
   description: "Portfolio",
 };

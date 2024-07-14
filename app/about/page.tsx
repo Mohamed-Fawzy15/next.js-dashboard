@@ -21,6 +21,6 @@ function About() {
 export default About;
 
 export const metadata = {
-  title: "Mohamed Fawzy | About",
+  title: "Nourhan Fawzy | About",
   description: "Portfolio",
 };

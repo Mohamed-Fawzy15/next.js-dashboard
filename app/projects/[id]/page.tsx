@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 type User = {
   id: number;
@@ -39,6 +40,13 @@ export default function Page() {
 
   return (
     <div>
+      <Head>
+        <title>{user ? `${user.name} | Nourhan Fawzy` : "Loading..."}</title>
+        <meta
+          name="description"
+          content={user ? `Details about ${user.name}` : "Loading..."}
+        />
+      </Head>
       <h1>{user?.name}</h1>
       <p>{user?.email}</p>
       <p>{user?.website}</p>

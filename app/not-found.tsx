@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
-import { useRouter } from "next/router"; //this hook is a build in next.js it give access to a method that redirect
+import { useRouter } from "next/navigation"; //this hook is a build in next.js it give access to a method that redirect
 
 function NoFound() {
   const router = useRouter();

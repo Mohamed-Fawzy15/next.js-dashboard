@@ -27,6 +27,6 @@ export default function Home() {
 // this is the new way to change the title in next.js for each page
 
 export const metadata = {
-  title: "Mohamed Fawzy | Home",
+  title: "Nourhan Fawzy | Home",
   description: "Portfolio",
 };
